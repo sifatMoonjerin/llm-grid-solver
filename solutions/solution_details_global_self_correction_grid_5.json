@@ -1,0 +1,4855 @@
+[
+    {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            2,
+            1
+        ],
+        "obstacles": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            0
+        ],
+        "goal": [
+            4,
+            1
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            2,
+            4
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            0,
+            1
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            1
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            1,
+            4
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            0,
+            1
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            1
+        ],
+        "goal": [
+            4,
+            4
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            4
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            4
+        ],
+        "goal": [
+            0,
+            3
+        ],
+        "obstacles": [
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "NORTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            4,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 4
+    },
+    {
+        "start": [
+            0,
+            2
+        ],
+        "goal": [
+            4,
+            1
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            2,
+            1
+        ],
+        "goal": [
+            4,
+            4
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            0,
+            2
+        ],
+        "goal": [
+            2,
+            1
+        ],
+        "obstacles": [
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            1,
+            1
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            4
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            1,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            4
+        ],
+        "goal": [
+            1,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            2,
+            0
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "WEST",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            4,
+            4
+        ],
+        "goal": [
+            3,
+            1
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            3
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            1
+        ],
+        "goal": [
+            1,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            0
+        ],
+        "goal": [
+            3,
+            4
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 10
+    },
+    {
+        "start": [
+            0,
+            1
+        ],
+        "goal": [
+            1,
+            3
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "EAST",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            3,
+            2
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            1
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "NORTH",
+            "NORTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 4
+    },
+    {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            4,
+            3
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "WEST",
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            0,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "NORTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            0
+        ],
+        "goal": [
+            3,
+            4
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "WEST",
+            "WEST",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 6
+    },
+    {
+        "start": [
+            2,
+            3
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            0
+        ],
+        "goal": [
+            0,
+            4
+        ],
+        "obstacles": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            0,
+            1
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "EAST",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            2,
+            4
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            4
+        ],
+        "goal": [
+            3,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                3
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 6
+    },
+    {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            2,
+            1
+        ],
+        "obstacles": [
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            0,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            0
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            0,
+            2
+        ],
+        "goal": [
+            4,
+            3
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            3,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            1
+        ],
+        "goal": [
+            1,
+            3
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST",
+            "NORTH"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            2
+        ],
+        "goal": [
+            2,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            2
+        ],
+        "goal": [
+            0,
+            0
+        ],
+        "obstacles": [
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "NORTH"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            3
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            0,
+            3
+        ],
+        "obstacles": [
+            [
+                3,
+                3
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            3
+        ],
+        "goal": [
+            0,
+            2
+        ],
+        "obstacles": [
+            [
+                0,
+                4
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            2
+        ],
+        "goal": [
+            4,
+            1
+        ],
+        "obstacles": [
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            4
+        ],
+        "goal": [
+            2,
+            3
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "NORTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            3
+        ],
+        "goal": [
+            3,
+            1
+        ],
+        "obstacles": [
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            1
+        ],
+        "goal": [
+            2,
+            1
+        ],
+        "obstacles": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            4
+        ],
+        "goal": [
+            0,
+            3
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            3
+        ],
+        "goal": [
+            1,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            3
+        ],
+        "goal": [
+            0,
+            4
+        ],
+        "obstacles": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "NORTH"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            4
+        ],
+        "goal": [
+            4,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            3
+        ],
+        "goal": [
+            3,
+            2
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 4
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 4
+    },
+    {
+        "start": [
+            0,
+            1
+        ],
+        "goal": [
+            1,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            2
+        ],
+        "goal": [
+            4,
+            3
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            3,
+            3
+        ],
+        "obstacles": [
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "EAST",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            4
+        ],
+        "goal": [
+            4,
+            1
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            2
+        ],
+        "goal": [
+            3,
+            1
+        ],
+        "obstacles": [
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            2
+        ],
+        "goal": [
+            1,
+            3
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            4,
+            0
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            1
+        ],
+        "goal": [
+            0,
+            4
+        ],
+        "obstacles": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            1,
+            3
+        ],
+        "obstacles": [
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            0
+        ],
+        "goal": [
+            4,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            1,
+            0
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            4
+        ],
+        "goal": [
+            3,
+            2
+        ],
+        "obstacles": [
+            [
+                3,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            3
+        ],
+        "goal": [
+            0,
+            3
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            4
+        ],
+        "goal": [
+            2,
+            4
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            1,
+            0
+        ],
+        "goal": [
+            2,
+            3
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            2
+        ],
+        "goal": [
+            0,
+            3
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 8
+    },
+    {
+        "start": [
+            2,
+            2
+        ],
+        "goal": [
+            4,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "WEST",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 6
+    },
+    {
+        "start": [
+            3,
+            4
+        ],
+        "goal": [
+            1,
+            3
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            3
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            4
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            0,
+            4
+        ],
+        "obstacles": [
+            [
+                4,
+                3
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            2
+        ],
+        "goal": [
+            0,
+            1
+        ],
+        "obstacles": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "SOUTH",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            1
+        ],
+        "goal": [
+            2,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            0,
+            4
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            3
+        ],
+        "goal": [
+            0,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            1
+        ],
+        "goal": [
+            1,
+            4
+        ],
+        "obstacles": [
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            4
+        ],
+        "goal": [
+            4,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                3
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            1
+        ],
+        "goal": [
+            1,
+            4
+        ],
+        "obstacles": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            3
+        ],
+        "goal": [
+            2,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            4,
+            1
+        ],
+        "obstacles": [
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 6
+    },
+    {
+        "start": [
+            2,
+            1
+        ],
+        "goal": [
+            0,
+            0
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            3
+        ],
+        "goal": [
+            2,
+            3
+        ],
+        "obstacles": [
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            0
+        ],
+        "goal": [
+            3,
+            2
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            4
+        ],
+        "goal": [
+            0,
+            1
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            3
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            3,
+            3
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            0,
+            2
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                4,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            3
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "EAST",
+            "WEST",
+            "EAST",
+            "WEST",
+            "EAST",
+            "WEST",
+            "EAST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "is_solved": false,
+        "has_invalid_move": true,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            4,
+            1
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            1,
+            3
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "EAST",
+            "WEST",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": true,
+        "path_difference": 2
+    },
+    {
+        "start": [
+            1,
+            3
+        ],
+        "goal": [
+            4,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    },
+    {
+        "start": [
+            2,
+            3
+        ],
+        "goal": [
+            2,
+            4
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "slm_moves": [
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST"
+        ],
+        "is_solved": true,
+        "has_invalid_move": false,
+        "path_difference": 0
+    }
+]
