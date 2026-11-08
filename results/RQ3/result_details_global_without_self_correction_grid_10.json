@@ -1,0 +1,8271 @@
+[
+    {
+        "start": [
+            7,
+            8
+        ],
+        "goal": [
+            7,
+            7
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 1,
+        "path_difference": 0,
+        "total_inference_time": 0.2379696560001321,
+        "inference_times": [
+            0.2379696560001321
+        ]
+    },
+    {
+        "start": [
+            0,
+            4
+        ],
+        "goal": [
+            7,
+            9
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                8,
+                8
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.2073865750007826,
+        "inference_times": [
+            0.2073865750007826
+        ]
+    },
+    {
+        "start": [
+            6,
+            5
+        ],
+        "goal": [
+            0,
+            6
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 3,
+        "path_difference": -1,
+        "total_inference_time": 0.8977443410003616,
+        "inference_times": [
+            0.20828363300097408,
+            0.21905499300009978,
+            0.23058461599976,
+            0.23982109899952775
+        ]
+    },
+    {
+        "start": [
+            8,
+            4
+        ],
+        "goal": [
+            9,
+            9
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 3,
+        "path_difference": -1,
+        "total_inference_time": 0.9021724800004449,
+        "inference_times": [
+            0.20662930700018478,
+            0.21885770900007628,
+            0.23492199300017091,
+            0.24176347100001294
+        ]
+    },
+    {
+        "start": [
+            9,
+            8
+        ],
+        "goal": [
+            6,
+            8
+        ],
+        "obstacles": [
+            [
+                0,
+                4
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 1,
+        "path_difference": -1,
+        "total_inference_time": 0.42876661800073634,
+        "inference_times": [
+            0.20472171599976718,
+            0.22404490200096916
+        ]
+    },
+    {
+        "start": [
+            8,
+            2
+        ],
+        "goal": [
+            5,
+            9
+        ],
+        "obstacles": [
+            [
+                3,
+                8
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                6,
+                9
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "EAST",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 2,
+        "path_difference": -1,
+        "total_inference_time": 0.6527927469996939,
+        "inference_times": [
+            0.20537019500079623,
+            0.21741126300003089,
+            0.2300112889988668
+        ]
+    },
+    {
+        "start": [
+            9,
+            4
+        ],
+        "goal": [
+            7,
+            0
+        ],
+        "obstacles": [
+            [
+                7,
+                7
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                8,
+                1
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                7,
+                5
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.18597152599977562,
+        "inference_times": [
+            0.18597152599977562
+        ]
+    },
+    {
+        "start": [
+            7,
+            4
+        ],
+        "goal": [
+            9,
+            9
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                8,
+                1
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                7,
+                5
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 7,
+        "path_difference": 0,
+        "total_inference_time": 1.6816614790004678,
+        "inference_times": [
+            0.2044892260000779,
+            0.21816726100041706,
+            0.23596218600141583,
+            0.24425136399986513,
+            0.25604830299926107,
+            0.2672845289998804,
+            0.2554586099995504
+        ]
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            9,
+            1
+        ],
+        "obstacles": [
+            [
+                6,
+                5
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 7,
+        "path_difference": 0,
+        "total_inference_time": 1.6779602219994558,
+        "inference_times": [
+            0.2068678830000863,
+            0.2184040880001703,
+            0.23179997599982016,
+            0.23989874200015038,
+            0.26085783899907256,
+            0.26281909400131553,
+            0.2573125999988406
+        ]
+    },
+    {
+        "start": [
+            7,
+            0
+        ],
+        "goal": [
+            2,
+            8
+        ],
+        "obstacles": [
+            [
+                6,
+                2
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "EAST",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 3,
+        "path_difference": -1,
+        "total_inference_time": 0.9077484310018917,
+        "inference_times": [
+            0.2063701420011057,
+            0.2203466840001056,
+            0.23292700999991212,
+            0.2481045950007683
+        ]
+    },
+    {
+        "start": [
+            5,
+            8
+        ],
+        "goal": [
+            5,
+            4
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 4,
+        "path_difference": 0,
+        "total_inference_time": 0.843570508999619,
+        "inference_times": [
+            0.1892689619999146,
+            0.2013912980000896,
+            0.22328292100064573,
+            0.22962732799896912
+        ]
+    },
+    {
+        "start": [
+            5,
+            7
+        ],
+        "goal": [
+            5,
+            8
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                8,
+                8
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 1,
+        "path_difference": 0,
+        "total_inference_time": 0.2058391769987793,
+        "inference_times": [
+            0.2058391769987793
+        ]
+    },
+    {
+        "start": [
+            4,
+            1
+        ],
+        "goal": [
+            5,
+            7
+        ],
+        "obstacles": [
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                9,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 7,
+        "path_difference": 0,
+        "total_inference_time": 1.7249282410011801,
+        "inference_times": [
+            0.21152665699992212,
+            0.21900019400163728,
+            0.23776429899953655,
+            0.24869090900028823,
+            0.2847246279998217,
+            0.2658608199999435,
+            0.2573607340000308
+        ]
+    },
+    {
+        "start": [
+            9,
+            3
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.18617771599929256,
+        "inference_times": [
+            0.18617771599929256
+        ]
+    },
+    {
+        "start": [
+            0,
+            8
+        ],
+        "goal": [
+            2,
+            6
+        ],
+        "obstacles": [
+            [
+                0,
+                7
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                8,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                8,
+                5
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.19514132399854134,
+        "inference_times": [
+            0.19514132399854134
+        ]
+    },
+    {
+        "start": [
+            8,
+            0
+        ],
+        "goal": [
+            2,
+            6
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "NORTH",
+            "SOUTH",
+            "NORTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 5,
+        "path_difference": -1,
+        "total_inference_time": 1.41295005900065,
+        "inference_times": [
+            0.2072951350000949,
+            0.21663883499968506,
+            0.2295249029994011,
+            0.24010446800093632,
+            0.25992303599923616,
+            0.25946368200129655
+        ]
+    },
+    {
+        "start": [
+            1,
+            5
+        ],
+        "goal": [
+            4,
+            7
+        ],
+        "obstacles": [
+            [
+                7,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.20928814000035345,
+        "inference_times": [
+            0.20928814000035345
+        ]
+    },
+    {
+        "start": [
+            7,
+            4
+        ],
+        "goal": [
+            2,
+            0
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                8,
+                8
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                5,
+                5
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 2,
+        "path_difference": -1,
+        "total_inference_time": 0.6636124550004752,
+        "inference_times": [
+            0.21081933799905528,
+            0.22050640800080146,
+            0.23228670900061843
+        ]
+    },
+    {
+        "start": [
+            5,
+            1
+        ],
+        "goal": [
+            6,
+            1
+        ],
+        "obstacles": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 1,
+        "path_difference": 0,
+        "total_inference_time": 0.20443419900038862,
+        "inference_times": [
+            0.20443419900038862
+        ]
+    },
+    {
+        "start": [
+            4,
+            5
+        ],
+        "goal": [
+            4,
+            9
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                7
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                8,
+                5
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 1,
+        "path_difference": -1,
+        "total_inference_time": 0.42578333299934457,
+        "inference_times": [
+            0.20618138200006797,
+            0.2196019509992766
+        ]
+    },
+    {
+        "start": [
+            2,
+            6
+        ],
+        "goal": [
+            8,
+            4
+        ],
+        "obstacles": [
+            [
+                3,
+                8
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 8,
+        "total_executed_moves": 8,
+        "path_difference": 0,
+        "total_inference_time": 1.9462829860003694,
+        "inference_times": [
+            0.2073359160003747,
+            0.21785405799892033,
+            0.23194864700053586,
+            0.2582991260005656,
+            0.28062567800043325,
+            0.25846976899993024,
+            0.24645169999894279,
+            0.24529809200066666
+        ]
+    },
+    {
+        "start": [
+            5,
+            6
+        ],
+        "goal": [
+            8,
+            7
+        ],
+        "obstacles": [
+            [
+                7,
+                7
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 2,
+        "path_difference": -1,
+        "total_inference_time": 0.6584683780001797,
+        "inference_times": [
+            0.20699816500018642,
+            0.21739708699897164,
+            0.2340731260010216
+        ]
+    },
+    {
+        "start": [
+            1,
+            9
+        ],
+        "goal": [
+            1,
+            0
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 3,
+        "path_difference": -1,
+        "total_inference_time": 0.8355550050000602,
+        "inference_times": [
+            0.1901783670000441,
+            0.20013174300038372,
+            0.2136496889997943,
+            0.23159520599983807
+        ]
+    },
+    {
+        "start": [
+            9,
+            7
+        ],
+        "goal": [
+            1,
+            8
+        ],
+        "obstacles": [
+            [
+                0,
+                7
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                1,
+                6
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.20533912399878318,
+        "inference_times": [
+            0.20533912399878318
+        ]
+    },
+    {
+        "start": [
+            0,
+            6
+        ],
+        "goal": [
+            4,
+            0
+        ],
+        "obstacles": [
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.18853166600092663,
+        "inference_times": [
+            0.18853166600092663
+        ]
+    },
+    {
+        "start": [
+            4,
+            6
+        ],
+        "goal": [
+            2,
+            2
+        ],
+        "obstacles": [
+            [
+                5,
+                5
+            ],
+            [
+                8,
+                4
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                8,
+                5
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 6,
+        "path_difference": 0,
+        "total_inference_time": 1.38513117399998,
+        "inference_times": [
+            0.2099051879995386,
+            0.21643235700139485,
+            0.21446121299959486,
+            0.2349266359997273,
+            0.2607274019992474,
+            0.2486783780004771
+        ]
+    },
+    {
+        "start": [
+            5,
+            1
+        ],
+        "goal": [
+            2,
+            8
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 10,
+        "total_executed_moves": 10,
+        "path_difference": 0,
+        "total_inference_time": 2.488161774006585,
+        "inference_times": [
+            0.20416536100128724,
+            0.2209583069998189,
+            0.23246431100051268,
+            0.25589395000133663,
+            0.2580391640003654,
+            0.26675598899964825,
+            0.25949225400108844,
+            0.26439228400158754,
+            0.25919211499967787,
+            0.26680803900126193
+        ]
+    },
+    {
+        "start": [
+            8,
+            6
+        ],
+        "goal": [
+            3,
+            3
+        ],
+        "obstacles": [
+            [
+                2,
+                4
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 4,
+        "path_difference": -1,
+        "total_inference_time": 1.1798753399998532,
+        "inference_times": [
+            0.2110554829996545,
+            0.22200100100053533,
+            0.23471719500048494,
+            0.24816221500077518,
+            0.26393944599840324
+        ]
+    },
+    {
+        "start": [
+            0,
+            3
+        ],
+        "goal": [
+            3,
+            1
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                0,
+                7
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 5,
+        "path_difference": 0,
+        "total_inference_time": 1.124195096997937,
+        "inference_times": [
+            0.1871290159997443,
+            0.21908418900056859,
+            0.23137488599968492,
+            0.24578502499934984,
+            0.24082198099858942
+        ]
+    },
+    {
+        "start": [
+            7,
+            3
+        ],
+        "goal": [
+            8,
+            3
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                8,
+                8
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                7,
+                7
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 1,
+        "path_difference": 0,
+        "total_inference_time": 0.20583327299937082,
+        "inference_times": [
+            0.20583327299937082
+        ]
+    },
+    {
+        "start": [
+            3,
+            4
+        ],
+        "goal": [
+            2,
+            8
+        ],
+        "obstacles": [
+            [
+                0,
+                7
+            ],
+            [
+                8,
+                8
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                7,
+                7
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 5,
+        "path_difference": 0,
+        "total_inference_time": 1.1659238129996083,
+        "inference_times": [
+            0.21004817399989406,
+            0.22121509300086473,
+            0.2309316939990822,
+            0.24160195799959183,
+            0.2621268940001755
+        ]
+    },
+    {
+        "start": [
+            6,
+            8
+        ],
+        "goal": [
+            7,
+            0
+        ],
+        "obstacles": [
+            [
+                3,
+                8
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                8,
+                4
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.18611312599932717,
+        "inference_times": [
+            0.18611312599932717
+        ]
+    },
+    {
+        "start": [
+            8,
+            7
+        ],
+        "goal": [
+            3,
+            3
+        ],
+        "obstacles": [
+            [
+                0,
+                7
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 9,
+        "total_executed_moves": 9,
+        "path_difference": 0,
+        "total_inference_time": 2.1790365840006416,
+        "inference_times": [
+            0.20591852300094615,
+            0.21645464199900744,
+            0.23603643299975374,
+            0.2514516539995384,
+            0.2702397840002959,
+            0.24825230100032059,
+            0.25171752000096603,
+            0.25081408400001237,
+            0.24815164299980097
+        ]
+    },
+    {
+        "start": [
+            4,
+            3
+        ],
+        "goal": [
+            5,
+            1
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6367779969987168,
+        "inference_times": [
+            0.19331785699978354,
+            0.20351418499922147,
+            0.23994595499971183
+        ]
+    },
+    {
+        "start": [
+            1,
+            3
+        ],
+        "goal": [
+            9,
+            8
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 2,
+        "path_difference": -1,
+        "total_inference_time": 0.6582134419986687,
+        "inference_times": [
+            0.20648396299839078,
+            0.2188996799995948,
+            0.23282979900068312
+        ]
+    },
+    {
+        "start": [
+            7,
+            3
+        ],
+        "goal": [
+            9,
+            3
+        ],
+        "obstacles": [
+            [
+                8,
+                4
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 2,
+        "path_difference": 0,
+        "total_inference_time": 0.42659559099956823,
+        "inference_times": [
+            0.20601661399996374,
+            0.2205789769996045
+        ]
+    },
+    {
+        "start": [
+            5,
+            8
+        ],
+        "goal": [
+            7,
+            7
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                8
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6483101910016558,
+        "inference_times": [
+            0.21123460300077568,
+            0.2176691069998924,
+            0.2194064810009877
+        ]
+    },
+    {
+        "start": [
+            2,
+            0
+        ],
+        "goal": [
+            4,
+            8
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                5,
+                5
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "EAST",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 5,
+        "path_difference": -1,
+        "total_inference_time": 1.4755620300020382,
+        "inference_times": [
+            0.20834575400112954,
+            0.2277626200011582,
+            0.23777716800032067,
+            0.2538348180005414,
+            0.28327390699996613,
+            0.26456776299892226
+        ]
+    },
+    {
+        "start": [
+            8,
+            5
+        ],
+        "goal": [
+            4,
+            7
+        ],
+        "obstacles": [
+            [
+                0,
+                7
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 3,
+        "path_difference": -1,
+        "total_inference_time": 0.9272678979996272,
+        "inference_times": [
+            0.20519474299908325,
+            0.22496126900114177,
+            0.2333987040001375,
+            0.26371318199926463
+        ]
+    },
+    {
+        "start": [
+            8,
+            0
+        ],
+        "goal": [
+            1,
+            0
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 4,
+        "path_difference": -1,
+        "total_inference_time": 1.1601200190016243,
+        "inference_times": [
+            0.20463325399941823,
+            0.22137487700092606,
+            0.23048811399894475,
+            0.2441914290011482,
+            0.25943234500118706
+        ]
+    },
+    {
+        "start": [
+            7,
+            5
+        ],
+        "goal": [
+            0,
+            9
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                6,
+                9
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 11,
+        "total_executed_moves": 11,
+        "path_difference": 0,
+        "total_inference_time": 2.778546791001645,
+        "inference_times": [
+            0.20588891499937745,
+            0.21835341500081995,
+            0.2356391919984162,
+            0.24905583500003559,
+            0.2823133880010573,
+            0.26402492400120536,
+            0.2653769810003723,
+            0.26665419299934,
+            0.2600092709999444,
+            0.2634499850009888,
+            0.2677806920000876
+        ]
+    },
+    {
+        "start": [
+            4,
+            8
+        ],
+        "goal": [
+            4,
+            0
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                8,
+                1
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 8,
+        "total_executed_moves": 8,
+        "path_difference": 0,
+        "total_inference_time": 1.8533720779996656,
+        "inference_times": [
+            0.18895099600013054,
+            0.20160182200015697,
+            0.2178435840014572,
+            0.24090326099940285,
+            0.2695298790004017,
+            0.24932121099845972,
+            0.24446110600001703,
+            0.24076021899963962
+        ]
+    },
+    {
+        "start": [
+            5,
+            4
+        ],
+        "goal": [
+            6,
+            1
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 2,
+        "path_difference": -1,
+        "total_inference_time": 0.600669444000232,
+        "inference_times": [
+            0.18766139699982887,
+            0.19872920399939176,
+            0.2142788430010114
+        ]
+    },
+    {
+        "start": [
+            0,
+            1
+        ],
+        "goal": [
+            6,
+            6
+        ],
+        "obstacles": [
+            [
+                8,
+                4
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.20689952400061884,
+        "inference_times": [
+            0.20689952400061884
+        ]
+    },
+    {
+        "start": [
+            5,
+            9
+        ],
+        "goal": [
+            1,
+            8
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 5,
+        "path_difference": 0,
+        "total_inference_time": 1.1523080360002496,
+        "inference_times": [
+            0.2048467040003743,
+            0.21905678400071338,
+            0.238458948000698,
+            0.2426306109991856,
+            0.24731498899927828
+        ]
+    },
+    {
+        "start": [
+            8,
+            9
+        ],
+        "goal": [
+            0,
+            2
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 4,
+        "path_difference": -1,
+        "total_inference_time": 1.1863923389992124,
+        "inference_times": [
+            0.20852425400153152,
+            0.22202694699990388,
+            0.23737737499868672,
+            0.24942458999976225,
+            0.269039172999328
+        ]
+    },
+    {
+        "start": [
+            3,
+            9
+        ],
+        "goal": [
+            6,
+            8
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 4,
+        "path_difference": 0,
+        "total_inference_time": 0.8971708600020065,
+        "inference_times": [
+            0.18667845399977523,
+            0.21989486500024213,
+            0.23492025900122826,
+            0.2556772820007609
+        ]
+    },
+    {
+        "start": [
+            1,
+            6
+        ],
+        "goal": [
+            3,
+            1
+        ],
+        "obstacles": [
+            [
+                4,
+                3
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 7,
+        "path_difference": 0,
+        "total_inference_time": 1.6265299989991036,
+        "inference_times": [
+            0.18797008099863888,
+            0.20243731400114484,
+            0.22870708600021317,
+            0.2314955790006934,
+            0.2646755000005214,
+            0.2643941079986689,
+            0.24685033099922293
+        ]
+    },
+    {
+        "start": [
+            5,
+            8
+        ],
+        "goal": [
+            6,
+            6
+        ],
+        "obstacles": [
+            [
+                9,
+                3
+            ],
+            [
+                8,
+                1
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6269957990007242,
+        "inference_times": [
+            0.21253398100088816,
+            0.19976390800002264,
+            0.21469790999981342
+        ]
+    },
+    {
+        "start": [
+            1,
+            4
+        ],
+        "goal": [
+            2,
+            6
+        ],
+        "obstacles": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6666818850007985,
+        "inference_times": [
+            0.20993348299998615,
+            0.22111506200053554,
+            0.2356333400002768
+        ]
+    },
+    {
+        "start": [
+            4,
+            1
+        ],
+        "goal": [
+            2,
+            1
+        ],
+        "obstacles": [
+            [
+                5,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 2,
+        "path_difference": 0,
+        "total_inference_time": 0.4237681020022137,
+        "inference_times": [
+            0.20547724200150697,
+            0.21829086000070674
+        ]
+    },
+    {
+        "start": [
+            1,
+            9
+        ],
+        "goal": [
+            9,
+            5
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                4
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 12,
+        "total_executed_moves": 12,
+        "path_difference": 0,
+        "total_inference_time": 2.9746783939972374,
+        "inference_times": [
+            0.20973854899966682,
+            0.22143248399879667,
+            0.23517480000009527,
+            0.24907087000065076,
+            0.26414217999990797,
+            0.26523407799868437,
+            0.26541625000027125,
+            0.2636426829994889,
+            0.24810337600138155,
+            0.2505902609991608,
+            0.2536860469990643,
+            0.2484468160000688
+        ]
+    },
+    {
+        "start": [
+            6,
+            2
+        ],
+        "goal": [
+            2,
+            4
+        ],
+        "obstacles": [
+            [
+                2,
+                1
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 6,
+        "path_difference": 0,
+        "total_inference_time": 1.4519013840017578,
+        "inference_times": [
+            0.20740474200101744,
+            0.22001727199858578,
+            0.2351512270015519,
+            0.2549726590004866,
+            0.2670512149998103,
+            0.2673042690003058
+        ]
+    },
+    {
+        "start": [
+            5,
+            4
+        ],
+        "goal": [
+            3,
+            7
+        ],
+        "obstacles": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                8,
+                1
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 5,
+        "path_difference": 0,
+        "total_inference_time": 1.2116063029989164,
+        "inference_times": [
+            0.21063276799941377,
+            0.22482416499951796,
+            0.23640522099958616,
+            0.25334232299974246,
+            0.286401826000656
+        ]
+    },
+    {
+        "start": [
+            5,
+            6
+        ],
+        "goal": [
+            9,
+            2
+        ],
+        "obstacles": [
+            [
+                6,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 3,
+        "path_difference": -1,
+        "total_inference_time": 0.925650343999223,
+        "inference_times": [
+            0.20797032100017532,
+            0.22156234700014465,
+            0.2353351659985492,
+            0.2607825100003538
+        ]
+    },
+    {
+        "start": [
+            7,
+            9
+        ],
+        "goal": [
+            3,
+            5
+        ],
+        "obstacles": [
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "NORTH",
+            "WEST",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 6,
+        "path_difference": -1,
+        "total_inference_time": 1.6742433719991823,
+        "inference_times": [
+            0.1896666840002581,
+            0.2223350610001944,
+            0.23287228099979984,
+            0.25459361399953195,
+            0.2677840929991362,
+            0.25776849999965634,
+            0.24922313900060544
+        ]
+    },
+    {
+        "start": [
+            0,
+            7
+        ],
+        "goal": [
+            3,
+            7
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                8,
+                6
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.20932972400078143,
+        "inference_times": [
+            0.20932972400078143
+        ]
+    },
+    {
+        "start": [
+            2,
+            6
+        ],
+        "goal": [
+            6,
+            1
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 3,
+        "path_difference": -1,
+        "total_inference_time": 0.92329202899964,
+        "inference_times": [
+            0.21077435999904992,
+            0.22536317900085123,
+            0.2379970800011506,
+            0.24915740999858826
+        ]
+    },
+    {
+        "start": [
+            8,
+            9
+        ],
+        "goal": [
+            1,
+            1
+        ],
+        "obstacles": [
+            [
+                8,
+                7
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.20921317800093675,
+        "inference_times": [
+            0.20921317800093675
+        ]
+    },
+    {
+        "start": [
+            5,
+            6
+        ],
+        "goal": [
+            1,
+            0
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                9,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 10,
+        "total_executed_moves": 10,
+        "path_difference": 0,
+        "total_inference_time": 2.4188811920012085,
+        "inference_times": [
+            0.21081459800006996,
+            0.21888099299940222,
+            0.23193695600093633,
+            0.24205372300093586,
+            0.2506204950004758,
+            0.27241361899905314,
+            0.24840398900050786,
+            0.2524917139999161,
+            0.24343840700021246,
+            0.2478266979996988
+        ]
+    },
+    {
+        "start": [
+            5,
+            6
+        ],
+        "goal": [
+            7,
+            9
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 5,
+        "path_difference": 0,
+        "total_inference_time": 1.2052039040027012,
+        "inference_times": [
+            0.20859168900096847,
+            0.22216875000049185,
+            0.23494995000146446,
+            0.25393313800122996,
+            0.2855603769985464
+        ]
+    },
+    {
+        "start": [
+            5,
+            4
+        ],
+        "goal": [
+            5,
+            7
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6752883699991798,
+        "inference_times": [
+            0.20915104199957568,
+            0.22407529199881537,
+            0.2420620360007888
+        ]
+    },
+    {
+        "start": [
+            1,
+            4
+        ],
+        "goal": [
+            0,
+            1
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                8,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                7,
+                2
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 4,
+        "path_difference": 0,
+        "total_inference_time": 0.8613062179992994,
+        "inference_times": [
+            0.21031047200085595,
+            0.20217483499982336,
+            0.21770772699892404,
+            0.23111318399969605
+        ]
+    },
+    {
+        "start": [
+            2,
+            5
+        ],
+        "goal": [
+            8,
+            6
+        ],
+        "obstacles": [
+            [
+                8,
+                1
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 5,
+        "path_difference": -1,
+        "total_inference_time": 1.4580423140014318,
+        "inference_times": [
+            0.2087954170001467,
+            0.22104752400082361,
+            0.2375032839991036,
+            0.2507956879999256,
+            0.2731552120003471,
+            0.26674518900108524
+        ]
+    },
+    {
+        "start": [
+            3,
+            7
+        ],
+        "goal": [
+            9,
+            6
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 7,
+        "path_difference": 0,
+        "total_inference_time": 1.6982601139989129,
+        "inference_times": [
+            0.2078672669995285,
+            0.22104640799989284,
+            0.23889106800015725,
+            0.2509956150006474,
+            0.26635910699951637,
+            0.26615797099839256,
+            0.24694267800077796
+        ]
+    },
+    {
+        "start": [
+            5,
+            5
+        ],
+        "goal": [
+            3,
+            7
+        ],
+        "obstacles": [
+            [
+                4,
+                1
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 4,
+        "path_difference": 0,
+        "total_inference_time": 0.9085513609988993,
+        "inference_times": [
+            0.208319217999815,
+            0.2217228689987678,
+            0.2343037299997377,
+            0.2442055440005788
+        ]
+    },
+    {
+        "start": [
+            9,
+            1
+        ],
+        "goal": [
+            5,
+            5
+        ],
+        "obstacles": [
+            [
+                3,
+                8
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 8,
+        "total_executed_moves": 8,
+        "path_difference": 0,
+        "total_inference_time": 1.9911569190007867,
+        "inference_times": [
+            0.20814938600051391,
+            0.22075676700114855,
+            0.23729045000072801,
+            0.2512901479985885,
+            0.2754844340015552,
+            0.2669558819998201,
+            0.26817637699969055,
+            0.2630534749987419
+        ]
+    },
+    {
+        "start": [
+            3,
+            4
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                5,
+                5
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.209905935000279,
+        "inference_times": [
+            0.209905935000279
+        ]
+    },
+    {
+        "start": [
+            8,
+            2
+        ],
+        "goal": [
+            7,
+            4
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                1,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6694689630003268,
+        "inference_times": [
+            0.21091933899879223,
+            0.22051326800101378,
+            0.23803635600052075
+        ]
+    },
+    {
+        "start": [
+            6,
+            8
+        ],
+        "goal": [
+            8,
+            7
+        ],
+        "obstacles": [
+            [
+                6,
+                2
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6469808459987689,
+        "inference_times": [
+            0.2108755059998657,
+            0.22070296499987307,
+            0.21540237499903014
+        ]
+    },
+    {
+        "start": [
+            4,
+            0
+        ],
+        "goal": [
+            4,
+            3
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                9,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6736646030003612,
+        "inference_times": [
+            0.21068512100100634,
+            0.22493084999950952,
+            0.23804863199984538
+        ]
+    },
+    {
+        "start": [
+            5,
+            8
+        ],
+        "goal": [
+            0,
+            7
+        ],
+        "obstacles": [
+            [
+                5,
+                5
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 2,
+        "path_difference": -1,
+        "total_inference_time": 0.6677590369999962,
+        "inference_times": [
+            0.20727548099966953,
+            0.22381968199988478,
+            0.23666387400044187
+        ]
+    },
+    {
+        "start": [
+            1,
+            7
+        ],
+        "goal": [
+            1,
+            3
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                7,
+                7
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 4,
+        "path_difference": 0,
+        "total_inference_time": 0.8461964150010317,
+        "inference_times": [
+            0.19217679900066287,
+            0.20509563099949446,
+            0.22343279300002905,
+            0.22549119200084533
+        ]
+    },
+    {
+        "start": [
+            3,
+            3
+        ],
+        "goal": [
+            0,
+            9
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 9,
+        "total_executed_moves": 9,
+        "path_difference": 0,
+        "total_inference_time": 2.263728185000218,
+        "inference_times": [
+            0.2083377630005998,
+            0.22137710599963611,
+            0.23436460899938538,
+            0.251831517998653,
+            0.27042852100021264,
+            0.2678007480008091,
+            0.2671431400012807,
+            0.27079223199871194,
+            0.27165254800092953
+        ]
+    },
+    {
+        "start": [
+            1,
+            2
+        ],
+        "goal": [
+            6,
+            0
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 1,
+        "path_difference": -1,
+        "total_inference_time": 0.4340289419997134,
+        "inference_times": [
+            0.20903655199981586,
+            0.22499238999989757
+        ]
+    },
+    {
+        "start": [
+            2,
+            9
+        ],
+        "goal": [
+            4,
+            6
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                9,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 5,
+        "path_difference": 0,
+        "total_inference_time": 1.1261462840011518,
+        "inference_times": [
+            0.18886212300094485,
+            0.19987854700048047,
+            0.2350194989994634,
+            0.25534177900044597,
+            0.24704433599981712
+        ]
+    },
+    {
+        "start": [
+            7,
+            5
+        ],
+        "goal": [
+            9,
+            0
+        ],
+        "obstacles": [
+            [
+                2,
+                7
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 1,
+        "path_difference": -1,
+        "total_inference_time": 0.4312980510003399,
+        "inference_times": [
+            0.2092875849994016,
+            0.22201046600093832
+        ]
+    },
+    {
+        "start": [
+            3,
+            7
+        ],
+        "goal": [
+            4,
+            5
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                7,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                7,
+                5
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6315230230011366,
+        "inference_times": [
+            0.20899629500127048,
+            0.20448660900001414,
+            0.21804011899985198
+        ]
+    },
+    {
+        "start": [
+            7,
+            0
+        ],
+        "goal": [
+            1,
+            2
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                5,
+                5
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                8,
+                5
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 6,
+        "path_difference": -1,
+        "total_inference_time": 1.7342168690011022,
+        "inference_times": [
+            0.21225265300017782,
+            0.22219610499996634,
+            0.23557389999950828,
+            0.2527025250001316,
+            0.2749657799995475,
+            0.2673124340017239,
+            0.26921347200004675
+        ]
+    },
+    {
+        "start": [
+            5,
+            4
+        ],
+        "goal": [
+            1,
+            5
+        ],
+        "obstacles": [
+            [
+                4,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 5,
+        "path_difference": 0,
+        "total_inference_time": 1.2167306269984692,
+        "inference_times": [
+            0.21010872700026084,
+            0.22327614899950277,
+            0.23508742099875235,
+            0.2608788279994769,
+            0.28737950200047635
+        ]
+    },
+    {
+        "start": [
+            1,
+            0
+        ],
+        "goal": [
+            3,
+            7
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                7
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 5,
+        "path_difference": -1,
+        "total_inference_time": 1.4255711210007576,
+        "inference_times": [
+            0.20731185099975846,
+            0.22149477399943862,
+            0.23570801599998958,
+            0.23991254800057504,
+            0.2581705680004234,
+            0.2629733640005725
+        ]
+    },
+    {
+        "start": [
+            6,
+            2
+        ],
+        "goal": [
+            7,
+            1
+        ],
+        "obstacles": [
+            [
+                3,
+                8
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 2,
+        "path_difference": 0,
+        "total_inference_time": 0.40919607400064706,
+        "inference_times": [
+            0.20637953500045114,
+            0.20281653900019592
+        ]
+    },
+    {
+        "start": [
+            2,
+            2
+        ],
+        "goal": [
+            1,
+            8
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.21006223699987459,
+        "inference_times": [
+            0.21006223699987459
+        ]
+    },
+    {
+        "start": [
+            9,
+            7
+        ],
+        "goal": [
+            3,
+            1
+        ],
+        "obstacles": [
+            [
+                5,
+                5
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "WEST",
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 2,
+        "path_difference": -1,
+        "total_inference_time": 0.6445211879999988,
+        "inference_times": [
+            0.19105360399953497,
+            0.22062440300032904,
+            0.2328431810001348
+        ]
+    },
+    {
+        "start": [
+            4,
+            1
+        ],
+        "goal": [
+            3,
+            8
+        ],
+        "obstacles": [
+            [
+                9,
+                0
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "EAST",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "NORTH",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 5,
+        "path_difference": -1,
+        "total_inference_time": 1.482686505998572,
+        "inference_times": [
+            0.21273305700015044,
+            0.22387357200022961,
+            0.23853697899903636,
+            0.25409662399943045,
+            0.2846379809998325,
+            0.26880829299989273
+        ]
+    },
+    {
+        "start": [
+            6,
+            4
+        ],
+        "goal": [
+            0,
+            3
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 7,
+        "total_executed_moves": 7,
+        "path_difference": 0,
+        "total_inference_time": 1.7122925229996326,
+        "inference_times": [
+            0.20697398400079692,
+            0.22188678400016215,
+            0.23661480699956883,
+            0.25895335000132036,
+            0.2698307009995915,
+            0.2689174949991866,
+            0.24911540199900628
+        ]
+    },
+    {
+        "start": [
+            2,
+            6
+        ],
+        "goal": [
+            9,
+            6
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                8,
+                8
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                0,
+                8
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 5,
+        "total_executed_moves": 4,
+        "path_difference": -1,
+        "total_inference_time": 1.1910345300002518,
+        "inference_times": [
+            0.2074202219992003,
+            0.2284405770005833,
+            0.23651903199970548,
+            0.25108193999949435,
+            0.2675727590012684
+        ]
+    },
+    {
+        "start": [
+            3,
+            0
+        ],
+        "goal": [
+            0,
+            6
+        ],
+        "obstacles": [
+            [
+                3,
+                8
+            ],
+            [
+                5,
+                5
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 9,
+        "total_executed_moves": 9,
+        "path_difference": 0,
+        "total_inference_time": 2.2927081170018937,
+        "inference_times": [
+            0.21139215100083675,
+            0.22477548899951216,
+            0.23852801999964868,
+            0.2591449690007721,
+            0.28614929700052016,
+            0.26781917400148814,
+            0.2705736040006741,
+            0.2648707629996352,
+            0.2694546499988064
+        ]
+    },
+    {
+        "start": [
+            2,
+            4
+        ],
+        "goal": [
+            1,
+            4
+        ],
+        "obstacles": [
+            [
+                7,
+                7
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 1,
+        "path_difference": 0,
+        "total_inference_time": 0.20731786400028795,
+        "inference_times": [
+            0.20731786400028795
+        ]
+    },
+    {
+        "start": [
+            1,
+            4
+        ],
+        "goal": [
+            6,
+            3
+        ],
+        "obstacles": [
+            [
+                0,
+                7
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 6,
+        "total_executed_moves": 6,
+        "path_difference": 0,
+        "total_inference_time": 1.4346931899981428,
+        "inference_times": [
+            0.21125412699984736,
+            0.22368831299900194,
+            0.23419063399887818,
+            0.2454889059990819,
+            0.26942878200134146,
+            0.2506424279999919
+        ]
+    },
+    {
+        "start": [
+            2,
+            1
+        ],
+        "goal": [
+            0,
+            2
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "NORTH"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "EAST",
+            "NORTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 1,
+        "path_difference": -1,
+        "total_inference_time": 0.43422816099882766,
+        "inference_times": [
+            0.211119133999091,
+            0.22310902699973667
+        ]
+    },
+    {
+        "start": [
+            1,
+            0
+        ],
+        "goal": [
+            5,
+            6
+        ],
+        "obstacles": [
+            [
+                3,
+                4
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                2
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 10,
+        "total_executed_moves": 10,
+        "path_difference": 0,
+        "total_inference_time": 2.543977083003483,
+        "inference_times": [
+            0.20918268300010823,
+            0.22394665100000566,
+            0.23782834300072864,
+            0.25464675200055353,
+            0.26557903899993107,
+            0.27424840800085803,
+            0.2664766680009052,
+            0.27203114300027664,
+            0.2691389470001013,
+            0.2708984490000148
+        ]
+    },
+    {
+        "start": [
+            0,
+            7
+        ],
+        "goal": [
+            9,
+            2
+        ],
+        "obstacles": [
+            [
+                7,
+                4
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 8,
+        "total_executed_moves": 7,
+        "path_difference": -1,
+        "total_inference_time": 2.0071807080003055,
+        "inference_times": [
+            0.20966945200052578,
+            0.2222952689990052,
+            0.23731985599988548,
+            0.25899551400107157,
+            0.2689394890003314,
+            0.2735622459986189,
+            0.26633659199978865,
+            0.2700622900010785
+        ]
+    },
+    {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                5,
+                5
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                8,
+                5
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "SOUTH",
+            "SOUTH",
+            "WEST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 2,
+        "total_executed_moves": 1,
+        "path_difference": -1,
+        "total_inference_time": 0.44129184300072666,
+        "inference_times": [
+            0.2137686570004007,
+            0.22752318600032595
+        ]
+    },
+    {
+        "start": [
+            5,
+            3
+        ],
+        "goal": [
+            6,
+            5
+        ],
+        "obstacles": [
+            [
+                8,
+                8
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 3,
+        "total_executed_moves": 3,
+        "path_difference": 0,
+        "total_inference_time": 0.6790273500009789,
+        "inference_times": [
+            0.21057530300095095,
+            0.22789259199998924,
+            0.24055945500003872
+        ]
+    },
+    {
+        "start": [
+            6,
+            1
+        ],
+        "goal": [
+            7,
+            4
+        ],
+        "obstacles": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "EAST",
+            "EAST",
+            "EAST",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.2106362579997949,
+        "inference_times": [
+            0.2106362579997949
+        ]
+    },
+    {
+        "start": [
+            9,
+            3
+        ],
+        "goal": [
+            7,
+            5
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                9,
+                9
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "bfs_moves": [
+            "NORTH",
+            "NORTH",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 4,
+        "total_executed_moves": 4,
+        "path_difference": 0,
+        "total_inference_time": 0.9353904939998756,
+        "inference_times": [
+            0.2132303079997655,
+            0.22752862199922674,
+            0.23877896200065152,
+            0.25585260200023185
+        ]
+    },
+    {
+        "start": [
+            0,
+            5
+        ],
+        "goal": [
+            0,
+            6
+        ],
+        "obstacles": [
+            [
+                5,
+                5
+            ],
+            [
+                9,
+                3
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                9,
+                5
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "is_solved": true,
+        "slm_moves": [
+            "EAST"
+        ],
+        "bfs_moves": [
+            "EAST"
+        ],
+        "has_invalid_move": false,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 1,
+        "path_difference": 0,
+        "total_inference_time": 0.2108652090009855,
+        "inference_times": [
+            0.2108652090009855
+        ]
+    },
+    {
+        "start": [
+            1,
+            0
+        ],
+        "goal": [
+            3,
+            8
+        ],
+        "obstacles": [
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST",
+            "EAST"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.2131634329998633,
+        "inference_times": [
+            0.2131634329998633
+        ]
+    },
+    {
+        "start": [
+            1,
+            9
+        ],
+        "goal": [
+            9,
+            0
+        ],
+        "obstacles": [
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                9,
+                6
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                9,
+                1
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                8,
+                5
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST"
+        ],
+        "bfs_moves": [
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH",
+            "WEST",
+            "WEST",
+            "WEST",
+            "WEST",
+            "SOUTH"
+        ],
+        "has_invalid_move": true,
+        "total_attempted_moves": 11,
+        "total_executed_moves": 10,
+        "path_difference": -1,
+        "total_inference_time": 2.759098989001359,
+        "inference_times": [
+            0.2152266619996226,
+            0.22507435900115524,
+            0.2390681279994169,
+            0.2567041220008832,
+            0.26869006699962483,
+            0.27968493799926364,
+            0.26944559200092044,
+            0.26600219200008723,
+            0.24635980700077198,
+            0.246442030000253,
+            0.24640109199935978
+        ]
+    }
+]
