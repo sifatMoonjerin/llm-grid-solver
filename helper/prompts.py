@@ -1,5 +1,5 @@
 # Generate system prompt for zero-shot reasoning
-def generate_zero_shot_system_prompt(grid_size=5):
+def generate_zero_shot_system_prompt(grid_size):
     SYSTEM_PROMPT = f"""
     You are a robot path planner operating in a {grid_size}×{grid_size} grid world.
 

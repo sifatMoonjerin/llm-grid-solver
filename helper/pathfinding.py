@@ -2,7 +2,7 @@ from collections import deque
 from helper.constants import MOVES
 
 # Get the shortest path from start to goal using BFS
-def get_shortest_path(start, goal, obstacles, grid_size=5):
+def get_shortest_path(start, goal, obstacles, grid_size):
     queue = deque([(start, [])])
     visited = set()
     visited.add(tuple(start))

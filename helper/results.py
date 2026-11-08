@@ -22,19 +22,23 @@ def create_result_summary(result_details):
     solved_grids = 0
     solved_path_differences = 0
     solved_path_length = 0
+    solved_shortest_path_length = 0
     unsolved_grids = 0
     unsolved_path_length = 0
+    unsolved_shortest_path_length = 0
     total_solved_inference_time = 0
     total_unsolved_inference_time = 0
     for detail in result_details:
         if detail["is_solved"]:
             solved_grids += 1
             solved_path_differences += detail["path_difference"]
-            solved_path_length += len(detail["slm_moves"])
+            solved_path_length += len(detail["slm_moves"]) if detail["slm_moves"] is not None else 0
+            solved_shortest_path_length += len(detail["bfs_moves"]) if detail["bfs_moves"] is not None else 0
             total_solved_inference_time += detail["total_inference_time"]
         else:
             unsolved_grids += 1
-            unsolved_path_length += len(detail["slm_moves"])
+            unsolved_path_length += len(detail["slm_moves"]) if detail["slm_moves"] is not None else 0
+            unsolved_shortest_path_length += len(detail["bfs_moves"]) if detail["bfs_moves"] is not None else 0
             total_unsolved_inference_time += detail["total_inference_time"]
 
     return {
@@ -43,7 +47,9 @@ def create_result_summary(result_details):
         "unsolved_grids": unsolved_grids,
         "average_solved_path_difference": solved_path_differences / solved_grids if solved_grids > 0 else -1,
         "average_solved_path_length": solved_path_length  / solved_grids if solved_grids > 0 else -1,
+        "average_solved_shortest_path_length": solved_shortest_path_length / solved_grids if solved_grids > 0 else -1,
         "average_unsolved_path_length": unsolved_path_length / unsolved_grids if unsolved_grids > 0 else -1,
+        "average_unsolved_shortest_path_length": unsolved_shortest_path_length / unsolved_grids if unsolved_grids > 0 else -1,
         "average_solved_inference_time": total_solved_inference_time / solved_grids if solved_grids > 0 else -1,
         "average_unsolved_inference_time": total_unsolved_inference_time / unsolved_grids if unsolved_grids > 0 else -1
     }

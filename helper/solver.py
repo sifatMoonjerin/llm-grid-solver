@@ -38,7 +38,7 @@ def solve_grids(grids, model, generate_system_prompt, is_local_context, is_self_
             ]
 
 
-        while attempted_moves < (grid_size * grid_size):
+        while attempted_moves < 25:
             print(f"Attempted moves: {attempted_moves}, Total executed moves: {total_moves}, Current position: {current_position}")
             attempted_moves += 1
             system_message = messages[0]
@@ -86,7 +86,7 @@ def solve_grids(grids, model, generate_system_prompt, is_local_context, is_self_
 
                 continue
 
-            validation_result = validate_move(current_position, action, obstacles)
+            validation_result = validate_move(current_position, action, obstacles, grid_size)
 
             if validation_result["valid"]:
                 total_moves += 1
@@ -148,7 +148,7 @@ def solve_grids(grids, model, generate_system_prompt, is_local_context, is_self_
         # print(f"Moves sequence: {moves_sequence}")
 
         print("Shortest Path Planning Results:")
-        shortest_path = get_shortest_path(start_position, goal_position, obstacles)
+        shortest_path = get_shortest_path(start_position, goal_position, obstacles, grid_size)
         if shortest_path is not None:
             print(f"Shortest path to goal: {shortest_path}")
         else:

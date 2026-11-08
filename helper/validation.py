@@ -18,7 +18,7 @@ def validate_json(json_str):
 
 
 # Validate robot move
-def validate_move(position, action, obstacles, grid_size=5):
+def validate_move(position, action, obstacles, grid_size):
     action = action.upper()
 
     if action not in MOVES:
