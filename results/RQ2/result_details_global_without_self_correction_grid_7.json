@@ -1,0 +1,112 @@
+[
+    {
+        "start": [
+            3,
+            5
+        ],
+        "goal": [
+            6,
+            6
+        ],
+        "obstacles": [
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                6
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": null,
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.24539606200050912,
+        "inference_times": [
+            0.24539606200050912
+        ]
+    },
+    {
+        "start": [
+            6,
+            6
+        ],
+        "goal": [
+            3,
+            0
+        ],
+        "obstacles": [
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "is_solved": false,
+        "slm_moves": [],
+        "bfs_moves": null,
+        "has_invalid_move": true,
+        "total_attempted_moves": 1,
+        "total_executed_moves": 0,
+        "path_difference": -1,
+        "total_inference_time": 0.22004818999994313,
+        "inference_times": [
+            0.22004818999994313
+        ]
+    }
+]
